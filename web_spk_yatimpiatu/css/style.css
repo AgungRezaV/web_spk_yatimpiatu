@@ -1,0 +1,55 @@
+body {
+    background: white;
+}
+
+#side_nav {
+    background: #3A3845;
+    min-width: 250px;
+    max-width: 250px;
+}
+
+.content {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+}
+
+hr.h-color {
+    background: #eee;
+    height: 5px;
+}
+
+.sidebar li.active {
+    background: #eee;
+    border-radius: 8px;
+}
+
+.sidebar li.active a,
+.sidebar li.active a:hover {
+    color: black;
+}
+
+.sidebar li a {
+    color: white;
+}
+
+#fs-4 {
+    font-size: 2rem;
+}
+
+.dashboard-content {
+    padding: 20px;
+}
+
+.title-index {
+    text-align: center;
+    color: black;
+}
+
+#d-flex {
+    padding-left: 90;
+}
+
+.dt-body-nowrap {
+    white-space: nowrap;
+}
